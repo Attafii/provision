@@ -1,3 +1,4 @@
+import Footer from "../components/Sections/Footer/Footer";
 import HeroSection from "../components/Sections/HeroSection";
 import Layout from "../components/layout/layout";
 
@@ -16,7 +17,9 @@ export default function Landing() {
       {/* main content (nav, landing, etc... ) */}
       <Layout>
         <HeroSection />
+        
       </Layout>
+    <Footer/>
     </>
   );
 }
